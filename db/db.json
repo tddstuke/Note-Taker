@@ -1,24 +1,3 @@
 {
-  "notes": [
-    {
-      "title": "new note",
-      "text": "new note",
-      "note_id": "27f86e13-83f6-4057-b274-9af5f3c77d78"
-    },
-    {
-      "title": "ok",
-      "text": "ok",
-      "note_id": "b9582c24-58b8-4578-8913-75689d843343"
-    },
-    {
-      "title": "try",
-      "text": "this",
-      "note_id": "1e290dd0-c2ea-4693-bf8b-bf6b7d7797a8"
-    },
-    {
-      "title": "and a",
-      "text": "again",
-      "note_id": "044e2075-d65f-4fb4-8001-0e5381a8516b"
-    }
-  ]
+  "notes": []
 }

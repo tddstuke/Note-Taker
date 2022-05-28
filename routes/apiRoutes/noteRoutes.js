@@ -3,7 +3,7 @@ const { append, json } = require("express/lib/response");
 const { notes } = require("../../db/db.json");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
-const createNewNote = require("../../lib/note");
+const { createNewNote, deleteNoteById } = require("../../lib/note");
 
 router.get("/notes", (req, res) => {
   let results = notes;
@@ -14,6 +14,12 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
   console.log(req.body);
   const note = createNewNote(req.body, notes);
+  res.json(req.body);
+});
+
+router.delete("/notes/:id", (req, res) => {
+  const id = req.params.id;
+  deleteNoteById(id, notes);
   res.json(req.body);
 });
 
