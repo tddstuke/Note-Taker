@@ -1,23 +1,20 @@
 const router = require("express").Router();
-const { append, json } = require("express/lib/response");
 const { notes } = require("../../db/db.json");
-const { v4: uuidv4 } = require("uuid");
-const fs = require("fs");
 const { createNewNote, deleteNoteById } = require("../../lib/note");
 
 router.get("/notes", (req, res) => {
   let results = notes;
-  console.log(results);
   res.json(results);
 });
 
 router.post("/notes", (req, res) => {
-  console.log(req.body);
+  console.log("Note has been posted");
   const note = createNewNote(req.body, notes);
   res.json(req.body);
 });
 
 router.delete("/notes/:id", (req, res) => {
+  console.log("Note has been deleted");
   const id = req.params.id;
   deleteNoteById(id, notes);
   res.json(req.body);
