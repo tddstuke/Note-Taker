@@ -16,13 +16,13 @@
 - When you click on an existing note, then that note appears in the right-hand column.
 - When you click on the trash can next to an existing note, then that note is deleted from page and database.
 
-## Installation Instructions <a id = "installation"></a>
+## Link to Website <a id = "installation"></a>
 
 Click [here](https://fathomless-castle-53803.herokuapp.com/notes) to see deployed application.
 
-## Usage Information <a id = "usage"></a>
+## Screenshot <a id = "usage"></a>
 
-Screenshot
+![Screenshot (20)](https://user-images.githubusercontent.com/98231816/171295989-02d7caba-ad98-47c5-9462-3e33cad71287.png)
 
 ## License <a id = "license"></a>
 
