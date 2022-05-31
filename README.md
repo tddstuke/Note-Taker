@@ -22,7 +22,7 @@ Click [here](https://fathomless-castle-53803.herokuapp.com/notes) to see deploye
 
 ## Screenshot <a id = "usage"></a>
 
-![Screenshot (20)](https://user-images.githubusercontent.com/98231816/171295989-02d7caba-ad98-47c5-9462-3e33cad71287.png)
+![Screenshot (21)](https://user-images.githubusercontent.com/98231816/171296411-a3c52d4e-7a78-4d16-9415-39db47afe7fe.png)
 
 ## License <a id = "license"></a>
 
